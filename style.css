@@ -1,0 +1,111 @@
+#title {
+    background-color: #8c8c8c;
+}
+
+.bumble_image {
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    position: relative;
+    left:30%;
+}
+
+.tagline {
+    font-family: 'Handlee', cursive;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 4rem;
+    display: block;
+    word-wrap: break-word;
+    padding: 2%;
+}
+
+.navbar {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.btn {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    color: #433400;
+}
+
+.nav-item {
+    color: #2d2626;
+}
+
+.row {
+    padding: 1rem 0.5rem 0.5rem 1rem;
+    font-family: 'Bubbler One', sans-serif;
+}
+
+#features {
+    padding: 7% 10%;
+}
+
+.feat {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 48px;
+    color: rgb(255, 217, 26);
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #2e2700;
+}
+
+#testimonials {
+    padding: 7% 10%;
+    background-color: rgb(255, 217, 26);
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+.testi {
+    margin: 4%;
+    font-size: 30px;
+}
+
+.woman {
+    height: 300px;
+    width: 330px;
+    border-radius: 100%;
+}
+
+#pricing {
+    font-family: 'Montserrat Alternates', sans-serif; padding:7% 10%;
+}
+
+.card {
+    font-family: 'Montserrat Alternates', sans-serif; padding:3% 5%;
+}
+#footer {
+    padding: 7% 10%;
+    background-color: rgb(255, 217, 26);text-align: center; font-family: 'Montserrat Alternates', sans-serif;
+}
+@media (max-width: 1000px) 
+{ 
+    .tagline{
+        text-align:center;
+    }
+    .bumble_image
+    {
+        position: static;
+    }
+    .btn
+    {
+        position: relative;
+        left:10%;
+    }
+}
